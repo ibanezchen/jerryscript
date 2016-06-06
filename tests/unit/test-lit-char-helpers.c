@@ -28,7 +28,7 @@ main (int __attr_unused___ argc,
 {
   TEST_INIT ();
 
-  mem_init ();
+  js_mem_init ();
   lit_init ();
   ecma_init ();
 

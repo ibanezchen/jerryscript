@@ -40,7 +40,7 @@ main (int __attr_unused___ argc,
 {
   TEST_INIT ();
 
-  mem_init ();
+  js_mem_init ();
 
   for (uint32_t i = 0; i < test_iters; i++)
   {

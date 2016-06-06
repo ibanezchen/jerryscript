@@ -111,7 +111,7 @@ typedef void (*mem_try_give_memory_back_callback_t) (mem_try_give_memory_back_se
     } \
   } while (false);
 
-extern void mem_init (void);
+extern void js_mem_init (void);
 extern void mem_finalize (bool);
 
 extern uintptr_t mem_compress_pointer (const void *);

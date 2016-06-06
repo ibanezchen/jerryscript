@@ -36,11 +36,11 @@ static mem_try_give_memory_back_callback_t mem_try_give_memory_back_callback = N
  * Initialize memory allocators.
  */
 void
-mem_init (void)
+js_mem_init (void)
 {
   mem_heap_init ();
   mem_pools_init ();
-} /* mem_init */
+} /* js_mem_init */
 
 /**
  * Finalize memory allocators.
